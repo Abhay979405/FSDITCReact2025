@@ -1,0 +1,49 @@
+ /* body{
+    background-color: blueviolet;
+}
+h2{
+    background-color: red;
+    color: aquamarine; 
+} */
+
+/* h2,p,h3{
+    background-color: black;
+    color: red;
+}
+
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+} */
+
+div~p{
+    background-color: aqua;
+    color: black;
+}
+
+p:hover{
+    background-color: antiquewhite;
+    color: aquamarine;
+    font-size: small;
+}
+
+p::after{
+    content: "REact devloper";
+    background-color: red;
+    color: teal;
+}
+p::before{
+    content: "hey, abhay where are you";
+    background-color: blueviolet;
+    color:peru ;
+}
+p::selection{
+    background-color: chartreuse;
+}
+p:nth-child(2){
+    background-color: black;
+}
+
+div p:nth-of-type(1){
+    background-color: rgb(54, 234, 174);
+}
